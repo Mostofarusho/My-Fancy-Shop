@@ -1,0 +1,16 @@
+@media screen and (max-width: 676px) {
+    .nav-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-container {
+        align-items: center;
+        justify-content: center;
+    }
+    .items-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+}
