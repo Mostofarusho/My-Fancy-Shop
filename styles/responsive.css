@@ -1,4 +1,5 @@
 @media screen and (max-width: 676px) {
+    /* Nav Section */
     .nav-section {
         flex-direction: column;
         align-items: center;
@@ -12,5 +13,29 @@
         flex-direction: column;
         gap: 15px;
         padding: 10px;
+    }
+    /* Banner Section */
+    .banner-section {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+    }
+    .text-container {
+        width: 100%;
+        gap: 10px;
+        margin: 0 auto;
+        order: 2;
+    }
+    .banner-image-container {
+        width: 100%;
+        order: 1;
+    }
+    .banner-image-container img {
+        width: 100%;
+    }
+    #collections {
+        font-family: "Dancing Script", cursive;
+        font-size: 3rem;
+        text-align: center;
     }
 }
