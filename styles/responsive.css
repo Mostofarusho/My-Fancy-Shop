@@ -1,4 +1,4 @@
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
     /* Nav Section */
     .nav-section {
         flex-direction: column;
@@ -44,5 +44,22 @@
     }
     .button-section {
         margin-bottom: 10px;
+    }
+    /* Product Section  */
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        /* margin: 0 auto; */
+    }
+}
+
+
+/* Responsive For Medium Device */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        /* margin: 0 auto; */
     }
 }
