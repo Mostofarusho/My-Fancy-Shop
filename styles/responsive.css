@@ -19,9 +19,11 @@
         flex-direction: column;
         margin-top: 40px;
         gap: 15px;
+        padding: 0px;
     }
     .text-container {
         width: 100%;
+        text-align: center;
         gap: 10px;
         margin: 0 auto;
         order: 2;
@@ -33,9 +35,14 @@
     .banner-image-container img {
         width: 100%;
     }
+    .banner-heading {
+        font-size: 3rem;
+    }
     #collections {
         font-family: "Dancing Script", cursive;
         font-size: 3rem;
-        text-align: center;
+    }
+    .button-section {
+        margin-bottom: 10px;
     }
 }
